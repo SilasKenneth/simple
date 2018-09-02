@@ -1,2 +1,2 @@
 def is_palindrome(word):
-    return word == word[::-1]
+    return word.lower() == word[::-1].lower()
